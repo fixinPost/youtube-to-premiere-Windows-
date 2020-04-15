@@ -13,7 +13,9 @@ When I run my script on the current PP version (14.4?) I get an 'illegal argumen
 it is only confirmed to work with version 14.0, but it likely works with older premiere 2019, also known as v.13. 
 Don't blame me if you use 14.4 or whatever, Adobe broke it, I can't even query the premiere pro project instance in the new version, it's almost completely broken :((((((((
 
-download my github files, launch jsx launcher from the Window > Extensions, select my script folder with jsx launcher, and if you've installed all thirdpary software succesffuly, you should be good to go.
+download my github files, launch jsx launcher from the Window > Extensions, select my script folder with jsx launcher, and if you've installed all thirdpary software succesffuly, you should be good to go. click the set folder button to set where the
+vid will download (this is a required step) then hit the download button. it will ask you for a url, right click paste the url
+and you're done!
 
 If you use an olddddd version of premiere that's incompatible with jsx launcher, message me on my youtube channel, that'll incentivise me to turn this into a real plugin, compatible with older PP versions.
 
