@@ -32,7 +32,7 @@ var importAry = [];
 for (var i = 0; i <importFiles.length; i++) {
         importAry[i] = importFiles[i].fsName;
     }
-alert(importAry);
+//alert(importAry);
 
 
 //WRITE TO BATCH FILE WITH 'vid' AND 'UF' AND CALL THAT Batch FILE
@@ -80,7 +80,7 @@ while (importAry.length > importAry2.length) {
         ////alert(importAry2[i])
     }
   }
-alert(importAry + ' is now this');
+//alert(importAry + ' is now this');
 /*
 var finalVid = importAry2.filter(function(obj) { 
     return importAry.indexOf(obj) == -1; 
@@ -114,7 +114,7 @@ function arr_diff (a1, a2) {
 var finalVid = (arr_diff(importAry, importAry2));
 
 finalVid.pop()
-alert(finalVid);
+//alert(finalVid);
 //IMPORT DOWNLOADED VID TO PREMIERE
 app.project.importFiles(finalVid,1,app.project.rootItem,0);
 
